@@ -32,12 +32,13 @@ a:focus {
 }
 
 .section.one {
-  background: url("images/pattern-circle.svg");
+  /* background: url("images/pattern-circle.svg");
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-position-x: 125%;
   background-position-y: 46%;
-  object-fit: cover;
+  object-fit: cover; */
+  overflow-x: hidden;
 }
 
 .profile-container {
@@ -57,17 +58,18 @@ a:focus {
   z-index: -1;
   object-fit: cover;
   object-position: 50% 50%;
+  overflow-x: hidden;
 }
 
-/* .circle {
+.circle {
   position: absolute;
   top: 65%;
-  left: 100%;
+  left: 135%;
   z-index: -1;
   object-fit: cover;
   object-position: 55% 25%;
   overflow: hidden;
-} */
+}
 
 /* .rings-div {
   background-image: url("images/pattern-rings.svg");
@@ -82,30 +84,6 @@ a:focus {
   object-fit: cover;
   object-position: 50% 50%;
 } */
-
-.circle-div {
-  background-image: url("images/pattern-circle.svg");
-  background-repeat: no-repeat, repeat;
-  background-position-x: right;
-  width: 4.0625rem;
-  height: 8.0625rem;
-  rotate: 180deg;
-  margin-left: 10rem;
-  bottom: 0%;
-  left: 70%;
-  z-index: -1;
-  /* object-fit: 25%; */
-  /* transform: translate(100%, 50%); */
-  object-fit: cover;
-  background-position-x: 120%;
-  background-position-y: 20%;
-  /* border: 2px solid pink; */
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  margin-left: 14em;
-  margin-top: -6em;
-}
 
 .name-h1 {
   font-size: 1.5rem;
